@@ -1,0 +1,58 @@
+#title_weather {
+    margin: 2.5vw ;
+    font-size: 4rem;
+    color: #FFFFFF
+  }
+  
+  #search-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .search {
+    margin-bottom: 20px;
+    width: 450px;
+    height: 50px;
+    font-size: 20px;
+    padding-left: 20px ;
+    border: 0;
+  }
+
+  @media only screen and (max-width: 660px) {
+    #title_weather {
+      font-size: 3rem;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    #title_weather {
+      font-size: 2rem;
+    }
+
+    .search {
+      width: 400px;
+
+    }
+  }
+
+  @media only screen and (max-width: 420px) {
+    #title_weather {
+      font-size: 2.2rem;
+    }
+
+    .search {
+      width: 350px;
+    }
+  }
+
+  @media only screen and (max-width: 370px) {
+    #title_weather {
+      font-size: 2rem;
+    }
+  }
+
+
+
